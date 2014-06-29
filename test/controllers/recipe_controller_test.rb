@@ -54,7 +54,7 @@ class RecipeControllerTest < ActionController::TestCase
       servings: @recipe.servings, 
       title: @recipe.title 
     }
-    
+
     assert_redirected_to recipe_path(assigns(:recipe))
   end
 
